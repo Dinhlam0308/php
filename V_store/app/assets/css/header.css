@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #e6734a;
+    padding: 10px;
+    margin: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu{
+    text-align: left;
+}
+
+.menu span {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+}
+
+.sale-items {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #d4a41e;
+    margin-top: 10px;
+
+}
+
+.add-new-btn {
+    display: block;
+    margin: 20px 60px;
+    background-color: #e6734a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-new-btn:hover {
+    background-color: #cc5c32;
+}
